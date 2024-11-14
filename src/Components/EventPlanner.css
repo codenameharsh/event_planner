@@ -69,10 +69,19 @@
   .testimonial .author {
     font-weight: bold;
   }
+
+  .contact {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
   
   .contact form {
     display: flex;
     flex-direction: column;
+    width: 50vw;
   }
   
   .contact input,
